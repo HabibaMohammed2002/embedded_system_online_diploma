@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviation club</title>
+</head>
+<body>
+
+
+<h2> Aviation Club </h2>
+<img src="./logo.png"alt="aviation logo"/>
+<form action="register.php" method="post"> 
+
+<div>
+    <label for ="username"> Full name (In English) </label>
+    <input type="text" id="username" name="username" placeholder="username" required>
+</div>
+
+<div>
+    <label for ="phonenumber">Phone Number </label>
+    <input type="number" id="phonenumber" name="phonenumber" placeholder="Enter phone number" required>
+</div>
+
+<div>
+    <label for ="Email">Email </label>
+    <input type="email" id="Email" name="Email" placeholder="Enter Email" required>
+</div>
+
+<div>
+    <label for= "Year">Academic year </label>
+    <select name="Academic year" id="Year" required> 
+    <option value=""selected="true" disabled="disabled">Academic year</option>
+    <option value="Freshmen">Freshmen</option>
+    <option value="Sophomore">Sophomore</option>
+    <option value="Junior">Junior</option>
+    <option value="Senior1">Senior1</option>
+    <option value="Senior2">Senior2</option>
+</select>
+</div>
+
+<div>
+    <label for ="Department">Department </label>
+    <select name="Department" id="Department" required> 
+    <option value=""selected="true" disabled="disabled">Academic year</option>
+    <option value="Mechanical">Mechanical</option>
+    <option value="Electrical">Electrical</option>
+    <option value="Civil">Civil</option>
+    <option value="Architecture">Architecture</option>
+</select>
+</div>
+
+
+<div>
+    <label for= "First_Preference">First Preference </label>
+    <select name="First Preference" id="First_Preference" required>
+    <option value=""selected="true" disabled="disabled">First preference</option>
+    <option value="Web">Web</option>
+    <option value="AI">AI</option>
+    <option value="Embedded">Embedded</option>
+    <option value="KNX">KNX</option>
+</select>
+</div>
+
+
+<div>
+    <label for= "Second_Preference">Second Preference </label>
+    <select name="Second Preference" id="Second_Preference" required>
+    <option value=""selected="true" disabled="disabled">Second preference</option>
+    <option value="Web">Web</option>
+    <option value="AI">AI</option>
+    <option value="Embedded">Embedded</option>
+    <option value="KNX">KNX</option>
+</select>
+</div>
+
+<input type="submit">
+</form>
+
+</body>
+</html>
